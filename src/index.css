@@ -1,0 +1,123 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150vh;
+  width: 80%;
+  margin-left: 12%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+
+.card-container {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 17px; /* Adjusted gap */
+}
+.card {
+background-color: transparent;
+height: 90%; 
+padding-top: 5%;
+margin-top: 15px; 
+margin-bottom: 30%;
+margin-left: 5%;
+margin-right: 2%;
+border-radius: 3%;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+text-align: center;
+display: flex;
+flex-direction: column;
+position: relative;
+}
+.button-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-top: 30px;
+  margin-left: 5%;
+  display: flex;
+  justify-content: space-around;
+  color:rgb(0, 166, 255) ;
+}
+
+.button {
+padding: 10px 35px; /* Adjusted padding for height and width */
+background-color: transparent;
+color: rgb(0, 166, 255);
+border: 2px solid;
+border-color: rgb(0, 166, 255);
+border-radius: 50px; /* Make the button round */
+cursor: pointer;
+margin-bottom: 20%;
+}
+
+.p {
+margin-top: 10px;
+margin-right: 5%;
+margin-left: 5%;
+margin-bottom: 15%;
+line-height: 1.4;
+text-align: left; 
+color: #777;
+}
+.content-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  
+}
+
+.label {
+font-size: 13px;
+text-align: center;
+color: #ffffff;
+margin-left: -33%;
+margin-right: 10%;
+padding-bottom: 21px;
+padding-top: 9px;
+border-radius: 5px;
+width: 20%;
+height:0%;
+text-align: center;
+
+}
+
+.label.New {
+  background-color: rgb(0, 87, 0);
+}
+
+.label.Fix {
+  background-color: blue;
+}
+
+.label.Improvement {
+  background-color: rgb(251, 80, 199);
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-left: -25%;
+}
+
+.image {
+  max-width: 30px; /* Adjust width as needed */
+  height: auto;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.title {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.date {
+font-weight: bold;
+color: #333;
+align-self: flex-start; 
+margin-left: 6%;
+margin-bottom: 5%;
+
+}
